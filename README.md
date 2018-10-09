@@ -34,7 +34,7 @@
 <ul>
 	<li><strong>Bootstrap 4.1.3</strong>: SCSS исходники;</li>
 	<li><strong>Eric Meyer reset</strong>: Файл сброса стилей от Эрика Мейера в SASS препроцессоре;</li>
-	<li><strong>_Normalize 8.0.0</strong>: Файл оформления стилей в разных браузерах к одному виду в в SASS препроцессоре;</li>
+	<li><strong>Normalize 8.0.0</strong>: Файл оформления стилей в разных браузерах к одному виду в в SASS препроцессоре;</li>
 </ul>
 
 <h2>Правила пользования стартером HTML-Harvester</h2>
