@@ -1,0 +1,39 @@
+/* Mixin Media Queries */
+// Usage:
+// .selector
+//   font-size: 20px
+//   @include large
+//     font-size: 18px
+
+$lg-desktop-width: 1200px;
+$md-desktop-width: 992px;
+$sm-tablets-width: 768px;
+$very-sm-mobile-width: 480px;
+$extra-sm-mobile-width: 320px;
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices | 1200px or less */
+=lg-desktop
+  @media only screen and (max-width : #{$lg-desktop-width})
+    @content
+
+/* Medium Devices | 992px or less */
+=md-desktop
+  @media only screen and (max-width : #{$md-desktop-width})
+    @content
+
+/* Tablets Devices | 768px or less */
+=sm-tablets
+  @media only screen and (max-width : #{$sm-tablets-width})
+    @content
+
+/* Tablets Devices | 480px or less */
+=very-sm-mobile
+  @media only screen and (max-width : #{$very-sm-mobile-width})
+    @content
+
+/* Tablets Devices | 320px or less */
+=extra-sm-mobile
+  @media only screen and (max-width : #{$extra-sm-mobile-width})
+    @content

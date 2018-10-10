@@ -1,7 +1,9 @@
 Version: 1.0.1
-Date: 9 October 2018
+Date: 10 October 2018
 ==============
-- 
+- add favicon.ico
+- add some sass files for work
+- add _media.sass mixins
 ------------------------------------------------
 
 Version: 1.0.0
