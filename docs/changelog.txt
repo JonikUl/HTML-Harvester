@@ -1,3 +1,10 @@
+Version: 1.0.2
+Date: 10 October 2018
+==============
+- add some default selectors to main.sass
+- add some change to index.html
+------------------------------------------------
+
 Version: 1.0.1
 Date: 10 October 2018
 ==============
