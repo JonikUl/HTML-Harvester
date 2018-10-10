@@ -1,14 +1,69 @@
 @import "vars"
 @import "fonts"
 @import "libs"
+/*	--------------------------------------------------------------
+/*	>>> TABLE OF CONTENTS:
+/*	----------------------------------------------------------------
+/*	1. Body
+/*	2. Selection
+/*	3. Separator
+/*	4. Headers
+/*	5. Links
+/*	6. Inputs
+/*	7. Checkboxes
+/*	8. Radio buttons
+/*	9. Textareas
+/*	--------------------------------------------------------------*/
 
+/* Body */
 body
+	position: relative
+	overflow-x: hidden
+	min-width: 320px
+	line-height: 1.30
+	font-family: $default-font
+	font-size: $font-size
+	color: $font-color
 	background: #fff
 
+/* Selection */
+*::selection
+	background: $link
+	color: $font-color
 
-/* Links stylesheets */
+/* Separator */
+hr
+	margin: 25px
+
+/* Headers */
+h1,h2,h3,h4
+	margin: .50em 0 .50em 0
+
+h1
+	font-size: 25px
+
+h2
+	font-size: 23px
+
+h3
+	font-size: 21px
+
+h4
+	font-size: 20px
+
+/* Links */
 a
-	color: red
+	color: $link
+	text-decoration: none
 
 a:hover
-	color: blue
+	color: $link-hover
+	text-decoration: underline
+
+/* Inputs */
+
+/* Checkboxes */
+
+/* Radio buttons */
+
+/* Textareas */
