@@ -41,9 +41,9 @@
 <h2>Правила пользования стартером HTML-Harvester</h2>
 <ol>
 	<li>Стартер использует <strong>Sass</strong> синтаксис;</li>
-	<li>Если в файлах <strong>SASS</strong>, присутствую non-ASCII символы, то в CSS будет автоматически добавляться @charset. При работе в разных файлах, в style.min.css будет компилиться по одному @charset из каждого <strong>SASS</strong> файла. Учтите это и проверяйте ваш CSS на ошибки;</li>
+	<li>Если в файлах <strong>SASS</strong>, присутствую non-ASCII символы, то в CSS будет автоматически добавляться @charset. При работе в разных файлах, в style.css будет компилиться по одному @charset из каждого <strong>SASS</strong> файла. Учтите это и проверяйте ваш CSS на ошибки;</li>
 	<li>Добавлять или удалять CSS/SCSS/SASS библиотеки можно в файле sass/_libs.sass;</li>
-	<li>Добавлять или удалять JS библиотеки можно в файле gulpfile.js, в одномименном таске;</li>
+	<li>Добавлять или удалять JS библиотеки можно в файле gulpfile.js, в одноименном таске;</li>
 	<li>Все SASS переменные размещать в <strong>app/sass/_vars.sass | app/sass/_vars.sass</strong>;</li>
 	<li>Все кастомные JS скрипты размещать в файле <strong>app/js/common.js</strong>;</li>
 </ol>
