@@ -27,7 +27,7 @@
 	<li><strong>_libs.sass</strong>: Файл который подключает css библиотеки (js библиотеки подключаются в gulpfile.js, в одномименном таске);</li>
 	<li><strong>/_mixins/_placeholder.sass</strong>: Миксин для быстрой стилизации плейсхолдеров;</li>
   	<li><strong>/_mixins/_transition.sass</strong>: Миксин для быстрой стилизации транзишн;</li>
-	 <li><strong>/_mixins/_media.sass</strong>: Миксин с медиа запросами, можно развить на свой вкус;</li>
+	 <li><strong>/_mixins/_media.sass</strong>: Миксин с медиа запросами, можно расширить на свой вкус;</li>
 </ul>
 
 <h2>HTML-Harvester включает в себя:</h2>
