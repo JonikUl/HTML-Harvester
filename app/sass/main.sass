@@ -7,12 +7,15 @@
 /*	1. Body
 /*	2. Selection
 /*	3. Separator
-/*	4. Headers
-/*	5. Links
-/*	6. Inputs
-/*	7. Checkboxes
-/*	8. Radio buttons
-/*	9. Textareas
+/*	4. Images
+/*	5. Headers
+/*	6. Links
+/*	7. Inputs
+/*	8. Checkboxes
+/*	9. Radio buttons
+/*	10. Textareas
+/*	11. Positioning
+/*	12. No paddings
 /*	--------------------------------------------------------------*/
 
 /* Body */
@@ -34,6 +37,13 @@ body
 /* Separator */
 hr
 	margin: 25px
+
+/* Images */
+img
+	display: inline-block
+	vertical-align: middle
+	max-width: 100%
+	height: auto
 
 /* Headers */
 h1,h2,h3,h4
@@ -67,3 +77,18 @@ a:hover
 /* Radio buttons */
 
 /* Textareas */
+
+/* Positioning */
+.text-left
+	text-align: left
+
+.text-center
+	text-align: center
+
+.text-right
+	text-align: right
+
+/* No paddings */
+.nopadding
+   padding: 0 !important
+   margin: 0 !important

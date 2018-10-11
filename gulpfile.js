@@ -36,7 +36,7 @@ gulp.task('js', function() {
 
 // Задача работы с изображениями
 gulp.task('images', function(){
-  return gulp.src('app/images/**/*.+(png|jpg|gif|svg)') // // Расширения изображений, которые поступят в обработку таска
+  return gulp.src('app/images/**/*.+(png|jpg|gif|svg|ico)') // // Расширения изображений, которые поступят в обработку таска
   .pipe(imagemin()) // Минифицируем изображения
   .pipe(gulp.dest('dist/images')) // Транспортируем оптимизированные в папку dist/images
 });
@@ -47,6 +47,9 @@ gulp.task('browserSync', function() {
  server: { // Поднимаем сервер
  baseDir: 'app' // Задаем корневую папку
  },
+ notify: true,
+ tunnel: true, tunnel: "dryada", // Demonstration page: http://projectname.localtunnel.me
+ online: true
   })
 })
 
@@ -70,10 +73,15 @@ gulp.task('default', function (callback) {
   )
 })
 
-// Задача для удаления всех файлов в папке dist
+// Задача для удаления всех файлов в папке dist кроме images
 gulp.task('clean', function(callback) {
   del(['dist/**/*', '!dist/images', '!dist/images/**/*'], callback)
   return cache.clearAll(callback);
+})
+
+// Задача для удаления всей папки dist
+gulp.task('clean-all', function() {
+  del('dist');
 })
 
 // Перемещаем css файлы из папки 'app/css' в 'dist/css'

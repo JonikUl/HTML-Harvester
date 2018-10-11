@@ -1,3 +1,14 @@
+Version: 1.0.3
+Date: 11 October 2018
+==============
+- add positioning selectors to main.sass
+- add Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss" to _vars.sass
+- add in main.sass img selector and some styles for images
+- add in main.sass nopaddings selector for reset paddings and margins
+- add clean-all task for delete dist folder
+- add Roboto font as default
+------------------------------------------------
+
 Version: 1.0.2
 Date: 10 October 2018
 ==============
