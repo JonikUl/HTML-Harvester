@@ -16,7 +16,8 @@
 	<li><strong>gulp</strong>: Запускаем дефолтные таски (css, js, images, watch, browserSync) для веб разработки;</li>
 	<li><strong>gulp images</strong>: Оптимизация всех изображений в папке app/images и транспортировка их в папку dist/images</li>
 	<li><strong>gulp clean</strong>: Очистка папки dist кроме папки с изображениями;</li>
-  <li><strong>gulp build</strong>: Транспортировка всех оптимизированных файлов (css, js, fonts, html) в папку dist;</li>
+	<li><strong>gulp clean-all</strong>: Удаление всей папки dist;</li>
+  	<li><strong>gulp build</strong>: Транспортировка всех оптимизированных файлов (css, js, fonts, html) в папку dist;</li>
 </ul>
 
 <h2>Особенности:</h2>
