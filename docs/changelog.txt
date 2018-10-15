@@ -1,3 +1,12 @@
+Version: 1.0.4
+Date: 15 October 2018
+==============
+- add Turn off iPhone/Safari input element rounding styles to main.sass [input selectors]
+- add missed scripts.min.js path to index.html
+- add to main.sass Buttons and Rouble stylesheets
+- add some changes to browserSync task
+------------------------------------------------
+
 Version: 1.0.3
 Date: 11 October 2018
 ==============

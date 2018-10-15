@@ -6,16 +6,18 @@
 /*	----------------------------------------------------------------
 /*	1. Body
 /*	2. Selection
-/*	3. Separator
-/*	4. Images
-/*	5. Headers
-/*	6. Links
-/*	7. Inputs
-/*	8. Checkboxes
-/*	9. Radio buttons
-/*	10. Textareas
-/*	11. Positioning
-/*	12. No paddings
+/*	3. Buttons
+/*	4. Separator
+/*	5. Images
+/*	6. Headers
+/*	7. Links
+/*	8. Inputs
+/*	9. Checkboxes
+/*	10. Radio buttons
+/*	11. Textareas
+/*	12. Positioning
+/*	13. No paddings
+/*	14. Rouble
 /*	--------------------------------------------------------------*/
 
 /* Body */
@@ -33,6 +35,10 @@ body
 *::selection
 	background: $link
 	color: $font-color
+
+/* Buttons */
+button
+  cursor: pointer
 
 /* Separator */
 hr
@@ -71,7 +77,10 @@ a:hover
 	text-decoration: underline
 
 /* Inputs */
-
+// Turn off iPhone/Safari input element rounding
+input[type="search"]
+	-webkit-appearance: none
+	
 /* Checkboxes */
 
 /* Radio buttons */
@@ -92,3 +101,9 @@ a:hover
 .nopadding
    padding: 0 !important
    margin: 0 !important
+
+/* Rouble */
+.rouble
+	font-family: 'rouble'
+	font-size: 21px
+	vertical-align: middle

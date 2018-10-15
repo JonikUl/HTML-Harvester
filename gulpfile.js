@@ -48,7 +48,8 @@ gulp.task('browserSync', function() {
  baseDir: 'app' // Задаем корневую папку
  },
  notify: true,
- tunnel: true, tunnel: "dryada", // Demonstration page: http://projectname.localtunnel.me
+ port: 9000, // измените
+ tunnel: "projectname", // Demonstration page: http://projectname.localtunnel.me
  online: true
   })
 })
