@@ -21,14 +21,14 @@
 </ul>
 
 <h2>Особенности:</h2>
-<p>Перед началом работы, в терминале нужно прописать следующие Gulp tasks:</p>
+<p>HTML-Harvester включает в себя следующие миксины и прочие особенности:</p>
 <ul>
 	<li><strong>_vars.sass</strong>: Файл с переменными;</li>
 	<li><strong>_fonts.sass</strong>: Файл в котором подключаем шрифты (работает на основе миксина /_mixins/_font-face.sass);</li>
 	<li><strong>_libs.sass</strong>: Файл который подключает css библиотеки (js библиотеки подключаются в gulpfile.js, в одномименном таске);</li>
 	<li><strong>/_mixins/_placeholder.sass</strong>: Миксин для быстрой стилизации плейсхолдеров;</li>
   	<li><strong>/_mixins/_transition.sass</strong>: Миксин для быстрой стилизации транзишн;</li>
-	 <li><strong>/_mixins/_media.sass</strong>: Миксин с медиа запросами, можно расширить на свой вкус;</li>
+	<li><strong>/_mixins/_media.sass</strong>: Миксин с медиа запросами, можно расширить на свой вкус;</li>
 </ul>
 
 <h2>HTML-Harvester включает в себя:</h2>
