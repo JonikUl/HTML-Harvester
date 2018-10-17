@@ -1,4 +1,5 @@
-<h1><strong>HTML-Harvester:</strong> <br>Стартер для веб разработки основанный на Gulp.</h1>
+<h1>HTML-Harvester:</h1>
+<h5>Стартер для веб разработки основанный на Gulp.</h5>
 <p>Автор билда: iWatchYouFromAfar <a href="https://urbancreations.ru/" target="_blank">Urban Creations</a><br/>
 
 
